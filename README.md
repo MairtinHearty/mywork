@@ -16,7 +16,7 @@ You are free to use whatever additional libraries you need outside of Express.
 
 ## Wireframes
 
-Pay attention to the URLs.
+_Hint:_ Pay attention to the URLs.
 
 ![](wireframes/album-root-path.png)
 
