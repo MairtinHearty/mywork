@@ -10,7 +10,7 @@ Although you are not writing tests for this exercise, try to keep in mind what t
 
 ![](wireframes/album-root-path.png)
 
-This means making a comment like "when a user clicks on 'Let me see right now' they are taken to the albums index view" and then working together with your pair using Error Driven Development to do the smallest thing that satisfies the test case you have just established. It may even be useful to write down each of these requirements as you code.
+This means making a comment like "when a user clicks on 'Let me see right now' they are taken to the albums index view" and then working together with your pair using [Error Driven Development](http://www.halogenandtoast.com/error-driven-development/) to do the smallest thing that satisfies the test case you have just established. It may even be useful to write down each of these requirements as you code.
 
 You are free to use whatever additional libraries you need outside of Express.
 
