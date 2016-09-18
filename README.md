@@ -12,7 +12,7 @@ Although you are not writing tests for this exercise, try to keep in mind what t
 
 This means making a comment like "when a user clicks on 'Let me see right now' they are taken to the albums index view" and then working together with your pair using [Error Driven Development](http://www.halogenandtoast.com/error-driven-development/) to do the smallest thing that satisfies the test case you have just established. It may even be useful to write down each of these requirements as you code.
 
-You are free to use whatever additional libraries you need outside of Express.
+Data should be stored using MongoDB and Monk. In addition, you are free to use whatever additional libraries you need outside of Express.
 
 ## Wireframes
 
@@ -30,6 +30,9 @@ _Hint:_ Pay attention to the URLs.
 
 ## Problems
 
+1. Use the Express generator to create the scaffolding for the site.
+1. Use Jade/Pug to render the pages as detailed in the wireframes.
+1. Use Monk/MongoDB for persistence so your app can be restarted without losing data.
 1. Implement all functionality detailed in the wireframes.
 1. [stretch] Use a CSS library like [Twitter Bootstrap](http://getbootstrap.com/) to style the application. This includes things like having a striped table for the index view, centering content for the root path of the application, etc.
 1. [stretch] Re-write the application using [`mongoose`](http://mongoosejs.com/docs/guide.html). When you have completed this, answer the following questions with your pair:
